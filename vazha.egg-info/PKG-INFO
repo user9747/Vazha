@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: vazha
+Version: 0.2
+Summary: മലയാള പൈത്തൺ
+Home-page: UNKNOWN
+Author: user9747
+Author-email: padinju@gmail.com
+License: MIT
+Description: ## Vazha Script
+        
+        Command line tool for Vazha script
+        
+        You completely write your code in malayalam and compile it using ```vazha```
+        
+        ### Install
+        
+        ```bash
+        pip3 install vazha
+        ```
+        ### Code
+        Write code with extension *.vazha*
+        
+        Use Vs-code extension ```vazha-sense``` to code faster it has a manglish to vazha script autocomplete feature.
+        
+        ### Run 
+        
+        ```bash
+        vazha <filepath>
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

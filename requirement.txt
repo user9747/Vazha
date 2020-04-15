@@ -1,0 +1,2 @@
+# Editable install with no version control (vazha==0.1)
+-e /home/user9747/projects/vazha
