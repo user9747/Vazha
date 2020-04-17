@@ -9,7 +9,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(name='vazha',
-      version='0.2',
+      version='0.3',
       description='മലയാള പൈത്തൺ',
       #   url='http://github.com/',
       author='user9747',

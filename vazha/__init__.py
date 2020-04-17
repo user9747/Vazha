@@ -15,11 +15,11 @@ cmd_parser.add_argument('-v',
 args,unknown_args = cmd_parser.parse_known_args()
 
 def compile():
-    print('compiling..')
     python_script = args.script.read()
     for i in keywords:
-        name = keywords[i]
         python_script = re.sub(i,keywords[i],python_script)
+    for i in built_ins:
+        python_script = re.sub(i,built_ins[i],python_script)
     exec(python_script)
 
 
