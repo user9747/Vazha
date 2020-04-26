@@ -3,14 +3,6 @@ import keyword
 
 
 
-# from googletrans import Translator
-# translator = Translator()
-
-
-# translations = translator.translate(l, dest='ml')
-# for translation in translations:
-#     print(translation.text,'=',translation.origin) 
-
 
 # import json
 # with open('vazha_to_manglish.json') as f:
@@ -23,20 +15,20 @@ import keyword
 #         print("{}Completion.kind = vscode.CompletionItemKind.Keyword;".format(name))
 #         print("completion_items.push({}Completion)".format(name))
 #         print()
+def translate_eng_mal():
+    from googletrans import Translator
+    translator = Translator()
 
-# from googletrans import Translator
-# translator = Translator()
 
+    keywords = []
+    for k in keyword.kwlist:
+        if(k not in __builtins__.__dict__):
+            keywords.append(k)
+    print(keywords)
 
-# keywords = []
-# for k in keyword.kwlist:
-#     if(k not in __builtins__.__dict__):
-#         keywords.append(k)
-# print(keywords)
-
-# translations = translator.translate(keywords, dest='ml')
-# for translation in translations:
-#     print(translation.text,'=',translation.origin) 
+    translations = translator.translate(keywords, dest='ml')
+    for translation in translations:
+        print(translation.text,'=',translation.origin) 
 
 s=""
 import json

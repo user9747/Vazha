@@ -83,9 +83,65 @@ built_ins = {
     "\\bനിര\\b": "tuple",
     "\\bതരം\\B": "type",
     "\\bവിവിധം\\B": "vars",
-    "\\bപൂട്ടു\\B": "zip"
+    "\\bപൂട്ടു\\B": "zip",
 }
 
+# string_methods = {
+#     "...."split",
+#     "....": "bകൂട്ടിച്ചേര്‍ക്കുകappend",
+#     "....": "capitalize",
+#     "....": "casefold",
+#     "....": "center",
+#     "....": "count",
+#     "....": "encode",
+#     "....": "endswith",
+#     "....": "expandtabs",
+#     "....": "find",
+#     "....": "format",
+#     "....": "format_map",
+#     "....": "index",
+#     "....": "isalnum",
+#     "....": "isalpha",
+#     "....": "isdecimal",
+#     "....": "isdigit",
+#     "....": "isidentifier",
+#     "....": "islower",
+#     "....": "isnumeric",
+#     "....": "isprintable",
+#     "....": "isspace",
+#     "....": "istitle",
+#     "....": "isupper",
+#     "....": "join",
+#     "....": "ljust",
+#     "....": "lower",
+#     "....": "lstrip",
+#     "....": "maketrans",
+#     "....": "partition",
+#     "....": "replace",
+#     "....": "rfind",
+#     "....": "rindex",
+#     "....": "rjust",
+#     "....": "rpartition",
+#     "....": "rsplit",
+#     "....": "rstrip",
+#     "....": "split",
+#     "....": "splitlines",
+#     "....": "startswith",
+#     "....": "strip",
+#     "....": "swapcase",
+#     "....": "title",
+#     "....": "translate",
+#     "....": "upper",
+#     "....": "zfill",
+# }
+
+# list_methods = {
+
+# }
+
+# dict_methods = {
+
+# }
 
 keywords = {
     "\\bഉം\\B": "and",
